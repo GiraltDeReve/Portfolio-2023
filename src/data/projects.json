@@ -1,0 +1,75 @@
+[
+    {
+      "id": "1",
+      "title": "Créer une page d'accueil avec HTML et CSS",
+      "pictures": [
+        "https://imageshack.com/img924/1347/3T5BL8.png",
+        "https://imageshack.com/img922/2784/HVp1tc.png"
+      ],
+      "description": "Projet de création d'un visuel de site de location à partir d'une maquette Figma, en utilisant HTML et CSS",
+      "link": "https://giraltdereve.github.io/Site-Booki/",
+      "repo": "Site-Booki"
+    },
+    {
+      "id": "2",
+      "title": "Créer une page web dynamique avec Javscript et une API",
+      "pictures": [
+        "https://imageshack.com/i/pnbzc8qIp",
+        "https://imageshack.com/img924/3334/r9EkQY.png",
+        "https://imageshack.com/i/pmjiThi8p",
+        "https://imageshack.com/i/pofOyukIp",
+        "https://imageshack.com/i/pnXgecRzp"
+      ],
+      "description": "à compléter",
+      
+      "link": "https://github.com/GiraltDeReve/Site-Portfolio-Sophie-Bluel-",
+      "repo": "Site-Portfolio-Sophie-Bluel-"
+    },
+    {
+      "id": "3",
+      "title": "Planifier le développement d'un site pour un client avec les méthodes agiles",
+      "pictures": [
+        "https://imageshack.com/i/pocqI3Ebp",
+        "https://imageshack.com/i/pmkSyIhJp",
+        "https://imageshack.com/i/pnoIonxvp"
+
+      ],
+      "description": "a compléter",
+      "link": "https://www.canva.com/design/DAFduoJiVHM/viM77MBy_UJtTBDhsmaIFA/edit?analyticsCorrelationId=71aca1ed-2c77-487b-8df3-0e52b8453464",
+      "repo":"inexistant"
+    },
+    {
+      "id": "4",
+      "title": "Debugger et optimiser le SEO d'un site web",
+      "pictures": [
+        "https://imageshack.com/i/pmkIWSYvp"
+      ],
+      "description": "a compléter",
+      "link": "https://giraltdereve.github.io/Site-Portfolio-Photographe/",
+      "repo": "Site-Portfolio-Photographe/"
+    },
+    {
+      "id": "5",
+      "title": "Créer une application web avec React",
+      "pictures": [
+        "https://imageshack.com/i/pnAxy4y6p",
+        "https://imageshack.com/i/pnDsQcpvp",
+        "https://imageshack.com/i/pmKjR0ypp"
+      ],
+      "description": "a compléter",
+      "link": "https://github.com/GiraltDeReve/Application-web-de-location/tree/main/my-app",
+      "repo": "Application-web-de-location"
+    },
+    {
+      "id": "6",
+      "title": "Développer le back-end d'un site avec Node.js, Express et Mongo.DB",
+      "pictures": [
+        "https://imageshack.com/i/pnVT9Ytyp",
+        "https://imageshack.com/i/pmbvntwPp",
+        "https://imageshack.com/i/pnnS3cfzp"
+      ],
+      "description": "a compléter",
+      "link": "https://github.com/GiraltDeReve/application-p7",
+      "repo": "application-p7"
+    }
+]

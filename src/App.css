@@ -1,38 +1,95 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap|Schibsted+Grotesk&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ 
+body {
+  width: 1400px;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  background-color: rgb(25,27,31);
+}
+
+h1 {
+  font-family: 'Schibsted Grotesk';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  color: #f1f1f1;
+  justify-content: center;
+  margin: 20px;
+}
+
+h2 {
+  color: hwb(167 1% 81%);
+  font-size: 1.7rem;
+  color: rgb(25,27,31);
+}
+
+h3 {
+ padding-top: 10px;
+ font-size: 1.3rem;
+}
+
+h4 {
   text-align: center;
+  justify-items: center;
+  font-size: 1.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+ul {
+  margin-left: 10%;
+  line-height: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+i {
+  color: #e6e9e9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* ------------------------------------------ */
+
+main{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+article {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  background: #f1f1f12e;
+  border-radius: 10px;
+  padding: 70px 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/* ***************Responsive*************** */
+@media screen and (max-width: 768px) {
+  article {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+
+@media screen and (max-width: 350px){
+  nav {
+    width: 50%;
   }
+}
+
+
+/* --------------------- DESCRIPTION PROJECT ------------------- */
+.project {
+  display: flex;
+}
+.description-project {
+  position: relative;
+  color: #f1f1f1;
 }
