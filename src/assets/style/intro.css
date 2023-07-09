@@ -1,42 +1,53 @@
-#introduction {
+.introduction {
     display: flex;
     justify-content: center ;
     align-items: center;
+    padding-top: 50px;
   }
   
-  #contenu-introduction {
+  .contenu-introduction {
     position: relative;
     width: 75%;
     padding: 30px;
   }
   
-  #portrait {
+  .portrait {
   width :245px; 
   height :245px;
   position: relative;
   overflow: hidden;
   float: left;
-  
   margin :20px;
   shape-outside: circle();
   }
-  #photo-portrait{
+
+  .photo-portrait{
     height: inherit;
     width: inherit;
     border: 0.7rem solid rgb(92,113,113);
     border-radius : 50%;
   }
   
-  #title-logo-introduction {
+  .title-logo-introduction {
     display: flex;
   }
-  #title-introduction {
+  .title-introduction {
     font-size: 2.5rem;
     color: white;
     padding-bottom: 20px;
   }
-  #text-introduction {
+  .text-introduction {
     color: white;
     font-size: 1.5rem;
+    line-height: 1.7;
   }
+.text-github {
+  color: #adb5bd;
+  font-size: 1.1em;
+}
+
   
+  img{
+    width: 50px;
+    height: 50px;
+  }

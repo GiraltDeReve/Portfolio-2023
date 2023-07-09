@@ -5,8 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/Header.jsx';
 import Home from './Pages/Home.jsx';
-import Projects from './Pages/Projects.jsx';
+// import Projects from './Pages/Projects.jsx';
+import Project from './Pages/Project.jsx';
 import About from './Pages/About.jsx';
+import Contacts from './components/Contacts.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,11 +18,13 @@ ReactDOM.render(
       <Routes>
         {/* routes remplace switch dans la nouvelle version de recat router */}
         <Route exact="true" path="/" element={<Home />} />
-        <Route path="/Projects" element={<Projects />} />
+        {/* <Route path="/Projects" element={<Projects />} /> */}
+        <Route path="/Project/:id" element={<Project />} />
         <Route path="/About" element={<About />} />
         {/* <Route path="/CV" element={<CV />} /> */}
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
+      <Contacts />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

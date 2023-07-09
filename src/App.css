@@ -6,11 +6,21 @@
   padding: 0;
  }
  
+
+.modal-open {
+  padding-right: 0px !important;
+}
+.joke {
+  display: flex;
+  justify-content: center;
+}
+
 body {
-  width: 1400px;
+  width: 1350px;
   font-family: 'Montserrat', sans-serif;
   margin: auto;
   background-color: rgb(25,27,31);
+  padding-right: 0px;
 }
 
 h1 {
@@ -68,23 +78,6 @@ article {
   padding: 70px 30px;
 }
 
-
-
-/* ***************Responsive*************** */
-@media screen and (max-width: 768px) {
-  article {
-    flex-direction: column;
-  }
-}
-
-
-@media screen and (max-width: 350px){
-  nav {
-    width: 50%;
-  }
-}
-
-
 /* --------------------- DESCRIPTION PROJECT ------------------- */
 .project {
   display: flex;
@@ -93,3 +86,73 @@ article {
   position: relative;
   color: #f1f1f1;
 }
+
+/* ---------------------------- skills ---------------------------- */
+#technos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#techno {
+width: 300px;
+  display: flex;
+}
+
+#psycho{
+  width: 300px;
+  display: flex;
+}
+
+/* ***************Responsive*************** */
+@media screen and (max-width: 768px) {
+  /* article {
+    flex-direction: column;
+  } */
+  body {
+    padding: 40px ;
+  }
+
+  .modal-backdrop {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-dialog {
+    margin: 23%;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  body {
+    padding: 15px ;
+    max-width: 530px;
+  }
+
+  .modal-backdrop {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-dialog {
+    right: 100px;
+    top: 900px;
+  }
+
+  #technos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #techno {
+    width: 250px;
+    display: flex;
+  }
+  
+  #psycho{
+    width: 500px;
+    display: flex;
+  }
+}
+
+

@@ -3,7 +3,7 @@ import '.././assets/style/contacts.css';
 
 const Contacts = () => {
   return (
-    <footer id="contacts">
+    <footer className="contacts">
       <h2> Où me trouver et où me contacter :</h2>
 
       <div className="link-contact">
@@ -19,6 +19,7 @@ const Contacts = () => {
           href="https://www.linkedin.com/in/c%C3%A9line-rouaire-b91408165/"
           title="Mon profil Linkedin"
           target="_blank"
+          rel="noreferrer"
         >
           Mon profil Linkedin
         </a>
@@ -30,6 +31,7 @@ const Contacts = () => {
           href="https://github.com/GiraltDeReve"
           title="Mon profil Github"
           target="_blank"
+          rel="noreferrer"
         >
           Mon profil Github
         </a>

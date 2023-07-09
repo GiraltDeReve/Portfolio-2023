@@ -1,0 +1,114 @@
+
+.main-container {
+    background-image: url(../images/background1.png);
+    background-size: cover;
+  background-position: center;
+    margin: 30px 10%;
+    box-shadow: 0 0 5px rgba(0,0,0,.18);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .second-container {
+    border-top: 1px solid rgba(0,0,0,.18);
+  }
+  
+  .title-container {
+    font-size:2em;
+    /* display: flex;
+    justify-content: center; */
+    font-weight: bold;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    margin-top: 17px;
+    
+  }
+  
+  .description {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    padding: 0 20px 20px 20px;
+    color: black;
+  }
+  
+  .commit {
+    font-size: 1.1em;
+    color: black;
+    padding-top: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .links {
+    color: black;
+    padding: 0 10px 10px 0px;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  
+  .links a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .technologies {
+    display: flex;
+  flex-wrap: wrap;
+  }
+  .technologie {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 0 0;
+  }
+  
+  .technologie h4 {
+    margin-right: 10px;
+  }
+  
+  .technologie img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .gallery-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-photo img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+    border: 10px solid rgb(39,60,62);
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .gallery-photo {
+      flex-direction: column;
+      align-content: center;
+    }
+    .gallery-photo img {
+      width: 450px;
+      height: 290px;
+    }
+
+    .main-container {
+      margin: 0;
+    }
+  }

@@ -12,8 +12,8 @@ function Aside() {
   };
 
   return (
-    <aside id="container">
-      <div id="container-onglets">
+    <aside className="container-skills">
+      <div className="container-onglets">
         <h2
           className={`onglets ${activeTab === 1 ? 'active' : ''}`}
           data-anim="1"
@@ -36,16 +36,16 @@ function Aside() {
         data-anim="1"
       >
         <h4>Aquis et en cours d'aquisition :</h4>
-        <ul id="list-hard-skills">
-          <div id="list1">
+        <ul className="list-hard-skills">
+          <div className="list1">
             <li className="li-principal">Bon niveau d'anglais</li>
-            <li className="li-principal">HTML/CSS - JavaScript</li>
             <li className="li-principal">
-              En cours d'aquisition :
+              Langages acquis :
               <ul>
-                <li className="li-secondaire">Framework React</li>
+                <li className="li-secondaire">HTML/CSS</li>
+                <li className="li-secondaire">JavaScript et Framework React</li>
                 <li className="li-secondaire">Node.js et Express</li>
-                <li className="li-secondaire">Base de données Mongo.DB</li>
+                <li className="li-secondaire">API Rest et base de données Mongo.DB</li>
               </ul>
             </li>
             <li className="li-principal">
@@ -61,20 +61,15 @@ function Aside() {
                 <li className="li-secondaire">Méthode Scrum</li>
               </ul>
             </li>
-          </div>
-          <div id="list2">
+            <li className="li-principal"> Optimisation d'un site WEB et de son SEO</li>
             <li className="li-principal">
-              Optimisation d'un site WEB et de son SEO :
+              En cours d'aquisition :
               <ul>
-                <li>Pratiques pour améliorer :</li>
-                <ul>
-                  <li className="li-secondaire">Performances d'un site</li>
-                  <li className="li-secondaire">Référencement naturel</li>
-                  <li className="li-secondaire">Accessibilité d'un site</li>
-                </ul>
+                <li className="li-secondaire">PHP</li>
+                <li className="li-secondaire">Animations CSS</li>
               </ul>
             </li>
-          </div>
+            </div>
         </ul>
       </div>
       <div
@@ -82,7 +77,7 @@ function Aside() {
         data-anim="2"
       >
         <h4>Mais aussi...</h4>
-        <ul id="list-soft-skills">
+        <ul className="list-soft-skills">
           <li>Organisation</li>
           <li>Rigueur</li>
           <li>Autonomie</li>

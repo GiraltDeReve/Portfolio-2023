@@ -39,7 +39,7 @@ const Joke = () => {
 
 return (
   <>
-<Button className="custom-button" onClick={handleOpenModal}>Une petite blague pour la route ?</Button>
+<Button className="custom-button" onClick={handleOpenModal}>Une petite blague ?</Button>
 <Modal show={showModal} onHide={handleCloseModal}>
   <Modal.Header closeButton>
     <Modal.Title>Une petite blague pour la route ?</Modal.Title>

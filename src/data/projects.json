@@ -2,17 +2,34 @@
     {
       "id": "1",
       "title": "Créer une page d'accueil avec HTML et CSS",
+      "cover": "https://imageshack.com/i/pnPPMLAKp",
       "pictures": [
         "https://imageshack.com/img924/1347/3T5BL8.png",
         "https://imageshack.com/img922/2784/HVp1tc.png"
       ],
-      "description": "Projet de création d'un visuel de site de location à partir d'une maquette Figma, en utilisant HTML et CSS",
+      "description": "Le projet vise à créer un visuel attrayant pour un site de location en utilisant une maquette Figma comme guide. L'objectif principal est d'intégrer l'interface du site en utilisant des langages web tels que HTML et CSS. Cela implique de traduire fidèlement les éléments de conception de la maquette en code, en veillant à ce que la structure, la mise en page et les styles soient correctement implémentés. Une attention particulière est accordée à l'adaptabilité du site en proposant des maquettes pour différentes tailles d'écran, notamment le bureau, la tablette et le mobile, afin de garantir une expérience utilisateur optimale sur tous les appareils. De plus, un souci de qualité est apporté en assurant la validité du code HTML et CSS conformément aux normes établies par le W3C. Ce processus permet de créer un site web esthétiquement agréable, fonctionnel et conforme aux bonnes pratiques de développement web.",
       "link": "https://giraltdereve.github.io/Site-Booki/",
-      "repo": "Site-Booki"
+      "github": "https://github.com/GiraltDeReve/Site-Booki",
+      "repo": "Site-Booki",
+      "technologies" : [
+        {
+        "titre" : "HTML",
+        "image" : "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+        },
+        {
+        "titre" : "CSS",
+        "image" : "https://icones.pro/wp-content/uploads/2022/08/css3.png"
+        },
+        {
+        "titre" : "Figma",
+        "image" : "https://cdn-icons-png.flaticon.com/256/5968/5968705.png"
+        }
+      ]
     },
     {
       "id": "2",
       "title": "Créer une page web dynamique avec Javscript et une API",
+      "cover": "https://imageshack.com/i/pmUIiXaip",
       "pictures": [
         "https://imageshack.com/i/pnbzc8qIp",
         "https://imageshack.com/img924/3334/r9EkQY.png",
@@ -20,56 +37,125 @@
         "https://imageshack.com/i/pofOyukIp",
         "https://imageshack.com/i/pnXgecRzp"
       ],
-      "description": "à compléter",
-      
-      "link": "https://github.com/GiraltDeReve/Site-Portfolio-Sophie-Bluel-",
-      "repo": "Site-Portfolio-Sophie-Bluel-"
+      "description": "Le projet vise à transformer un site portfolio statique en une version dynamique. Les trois missions principales étaient les suivantes et ont été suivie à l’aide d’un tableau Kanban. Développer la page des présentation des travaux de la cliente en ajoutant les fonctionnalités nécessaires pour afficher de manière dynamique les différents projets (filtrage et tri). Développer la page de connexion de l’utilisateur de zéro, en gérant l’interface utilisateur et les fonctionnalités de connexion sécurisée, autorisant ensuite l’utilisateur connecté de gérer le contenu du site (ajout, modification et suppression de projets). Développer la modale d’upload de nouveaux projets de zero.",
+      "github": "https://github.com/GiraltDeReve/Site-Portfolio-Sophie-Bluel-",
+      "repo": "Site-Portfolio-Sophie-Bluel-",
+      "technologies" : [
+        {
+        "titre" : "HTML",
+        "image" : "https://cdn-icons-png.flaticon.com/512/732/732212.png"
+        },
+        {
+        "titre" : "CSS",
+        "image" : "https://icones.pro/wp-content/uploads/2022/08/css3.png"
+        },
+        {
+        "titre" : "JavaScript",
+        "image" : "https://globalcloudteam.com/wp-content/uploads/2022/09/javascript.png"
+        }
+      ]
     },
     {
       "id": "3",
       "title": "Planifier le développement d'un site pour un client avec les méthodes agiles",
+      "cover": "https://imageshack.com/i/pongxLpIp",
       "pictures": [
-        "https://imageshack.com/i/pocqI3Ebp",
-        "https://imageshack.com/i/pmkSyIhJp",
-        "https://imageshack.com/i/pnoIonxvp"
+        "https://imageshack.com/i/pmQR2V5Op",
+        "https://imageshack.com/i/poi4tlMUp",
+        "https://imageshack.com/i/pmb2DWzip"
 
       ],
-      "description": "a compléter",
+      "description": "Le projet consiste à planifier le développer d’un site permettant aux restaurateurs de créer facilement leurs menus. Les objectifs comprennent la préparation du projet, la mise en place d'une méthodologie de travail agile, ainsi que le développement de fonctionnalités clés. J’avais a disposition la maquette desktop, la documentation des spécifications fonctionnelles et les user stories. Mes missions était de créer un système de veille et sa documentation, d’approfondir les spécifications techniques afin d’organiser la gestion de projet via un tableau Kanban. ",
       "link": "https://www.canva.com/design/DAFduoJiVHM/viM77MBy_UJtTBDhsmaIFA/edit?analyticsCorrelationId=71aca1ed-2c77-487b-8df3-0e52b8453464",
-      "repo":"inexistant"
+      "technologies" : [
+        {
+        "titre" : "Trello",
+        "image" : "https://backoffice.ccistore.fr/uploads/eservice/logo/trello-cci-store-logo.png"
+        },
+        {
+        "titre" : "Wakelet",
+        "image" : "https://global.discourse-cdn.com/brave/original/3X/3/f/3f536caf320f0c4da696932e3b09447906365001.png"
+        },
+        {
+        "titre" : "Canva",
+        "image" : "https://www.appdeploynews.com/wp-content/uploads/2023/05/canva-icon.png"
+        }
+      ]
     },
     {
       "id": "4",
       "title": "Debugger et optimiser le SEO d'un site web",
+      "cover": "https://imageshack.com/i/pnSb1sYyp",
       "pictures": [
         "https://imageshack.com/i/pmkIWSYvp"
       ],
-      "description": "a compléter",
+      "description": "Le projet consiste à optimiser le site portfolio d’une photographe. Le premier audit réalisé avec Lighthouse révèle des problèmes de performances, notamment liés aux images lourdes et à la structure du code. Les missions sont donc d’améliorer les performances du site (optimisation des images, sémantique, corrections de bugs…), son référencement et sa visibilité sur les moteurs de recherche ainsi que son accessibilité. Le rapport d'intervention produit en réponse comprend une comparaison des performances avant et après l'optimisation, une liste des modifications apportées au site, ainsi qu'une liste des cas d'usage pour vérifier le bon fonctionnement du site. ",
       "link": "https://giraltdereve.github.io/Site-Portfolio-Photographe/",
-      "repo": "Site-Portfolio-Photographe/"
+      "github": "https://github.com/GiraltDeReve/Site-Portfolio-Photographe",
+      "repo": "Site-Portfolio-Photographe/",
+      "technologies" : [
+        {
+        "titre" : "Lighthouse",
+        "image" : "https://ph-files.imgix.net/27015715-745c-462e-87b1-f64b75d06708.png?auto=format"
+        },
+        {
+        "titre" : "Gimp",
+        "image" : "https://docs.gimp.org/fr/images/using/wilber.png"
+        },
+        {
+        "titre" : "Rapport Wave",
+        "image" : "https://img.crx4chrome.com/28/ce/ba/jbbplnpkjmmeebjpijfedlgcdilocofh-logo.webp"
+        }
+      ]
     },
     {
       "id": "5",
       "title": "Créer une application web avec React",
+      "cover": "https://imageshack.com/i/pm791VU6p",
       "pictures": [
         "https://imageshack.com/i/pnAxy4y6p",
         "https://imageshack.com/i/pnDsQcpvp",
         "https://imageshack.com/i/pmKjR0ypp"
       ],
-      "description": "a compléter",
-      "link": "https://github.com/GiraltDeReve/Application-web-de-location/tree/main/my-app",
-      "repo": "Application-web-de-location"
+      "description": "Le projet consiste a aider une entreprise spécialisée dans la location d’appartements a moderniser leur application WEB. Ce dernier, possédant un code legacy important doit être revu pour adopter un stack complet en JavaScript, en utilisant NodeJS pour le back-end et React pour le front-end. Ma mission était de démarrer le projet REACT et de développer l’ensemble de l’application (composants, pages, routage) en suivant les maquettes Figma pour les versions desktop, mobile et tablette.",
+      "github": "https://github.com/GiraltDeReve/Application-React-Kasa",
+      "repo": "Application-web-de-location",
+      "technologies" : [
+        {
+        "titre" : "JavaScript",
+        "image" : "https://globalcloudteam.com/wp-content/uploads/2022/09/javascript.png"
+        },
+        {
+        "titre" : "React",
+        "image" : "https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png?width=256&s=3f7493995143d3cf40b1fedc582607cea194b579"
+        }
+      ]
     },
     {
       "id": "6",
       "title": "Développer le back-end d'un site avec Node.js, Express et Mongo.DB",
+      "cover": "https://imageshack.com/i/poECkm5Tp",
       "pictures": [
         "https://imageshack.com/i/pnVT9Ytyp",
         "https://imageshack.com/i/pmbvntwPp",
         "https://imageshack.com/i/pnnS3cfzp"
       ],
-      "description": "a compléter",
-      "link": "https://github.com/GiraltDeReve/application-p7",
-      "repo": "application-p7"
+      "description": "Le projet consiste à développer le back end du site Mon Vieux Grimoire, une plateforme de notation de livres. Mes missions étaient de développer le backend en utilisant MongoDB, Mongoose, Express et Node.js, tandis que le front-end serait développé en React. L'objectif était de permettre aux utilisateurs de se créer un compte puis se connecter afin d'ajouter des livres, les modifier et les supprimer. Il leur était également possible de noter d’autres livres créer par d’autres utilisateurs. J'ai mis en place la logique du serveur, les modèles de données, les routes et intégré les fonctionnalités spécifiées dans l'API existante. Le résultat était une plateforme interactive pour partager et évaluer des livres.",
+      "github": "https://github.com/GiraltDeReve/application-p7",
+      "repo": "application-p7",
+      "technologies" : [
+        {
+        "titre" : "Node.js",
+        "image" : "https://onlyweb-formation.com/uploads/mod_logo/nodejs1.png"
+        },
+        {
+        "titre" : "Express",
+        "image" : "https://gurayyarar.gallerycdn.vsassets.io/extensions/gurayyarar/expressjs-4-snippets/1.0.2/1512033439660/Microsoft.VisualStudio.Services.Icons.Default"
+        },
+        {
+        "titre" : "Mango DB",
+        "image" : "https://onlyweb-formation.com/uploads/mod_logo/mongodb.png"
+        }
+      ]
     }
 ]

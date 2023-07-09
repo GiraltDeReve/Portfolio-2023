@@ -2,15 +2,14 @@ import React from 'react';
 import Skills from '../components/Skills.jsx';
 import Resume from '../components/Resume.jsx';
 import Techno from '../components/Techno.jsx';
-import Contacts from '../components/Contacts.jsx';
+import '.././assets/style/resume.css'
 
 function About() {
   return (
-    <main>
+    <main className='sections'>
       <Skills />
       <Resume />
       <Techno />
-      <Contacts />
     </main>
   );
 }

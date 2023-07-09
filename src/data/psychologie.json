@@ -1,12 +1,32 @@
 [
     {
         "id": "1",
-        "title": "Entretien",
-        "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+        "title": "Méthodologie d'entretien",
+        "logo": "https://cdn-icons-png.flaticon.com/128/6681/6681930.png"
       },
     {
         "id": "2",
-        "title": "Questionnaire",
-        "logo": "https://e7.pngegg.com/pngimages/809/78/png-clipart-computer-icons-html-font-others-text-logo-thumbnail.png"
+        "title": "Enquête et analyse statistique",
+        "logo": "https://cdn-icons-png.flaticon.com/128/535/535531.png"
+      },
+    {
+        "id": "3",
+        "title": "TCC et thérapie positive",
+        "logo": "https://cdn-icons-png.flaticon.com/128/2721/2721856.png"
+      },
+    {
+        "id": "4",
+        "title": "Thérapie de groupe et intervention",
+        "logo": "https://cdn-icons-png.flaticon.com/512/5363/5363451.png"
+      },
+    {
+        "id": "5",
+        "title": "Evaluation des compétences",
+        "logo": "https://cdn-icons-png.flaticon.com/128/2065/2065034.png"
+      },
+    {
+        "id": "6",
+        "title": "Orientation professionnelle et scolaire",
+        "logo": "https://cdn-icons-png.flaticon.com/256/8677/8677076.png"
       }
 ]

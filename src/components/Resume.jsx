@@ -1,19 +1,24 @@
 import React, { useState } from 'react';
 import '.././assets/style/resume.css';
-import arrow from ".././assets/Arrow.png";
+import arrow from ".././assets/images/Arrow.png";
 
 function Resume() {
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isFormationOpen, setIsFormationOpen] = useState(false);
+  const [isCoursOpen, setIsCoursOpen] = useState(false);
 
-  // const toggleCoursList = () => {
-  //   setIsOpen(!isOpen);
-  // };
+  const toggleFormation = () => {
+    setIsFormationOpen(!isFormationOpen);
+  };
+
+  const toggleCours = () => {
+    setIsCoursOpen(!isCoursOpen);
+  };
 
   return (
     <>
-      <section id="formation">
-        <section id="formation-OC" className="bloc">
+      <section className="formation">
+        <section className="bloc">
           <h2>
             <i className="fa-solid fa-code"></i> FORMATION "DEVELOPPEUR WEB"
           </h2>
@@ -21,43 +26,56 @@ function Resume() {
             OpenClassroom (Décembre 2023 – Juillet 2023)
           </p>
 
-          <p className="description-formation-dev">
-            Objectif de la formation : Transformer des maquettes graphiques en
-            sites webs fonctionnels et ergonomiques via la réalisation de 7
-            projet concrets basés sur des mises en situation professionnelles.
+          <div className="description-formation-dev">
+            <p><strong>Objectif de la formation : Transformer des maquettes graphiques en
+            sites webs fonctionnels et ergonomiques </strong></p>
+            <p><i className="fa-solid fa-arrow-right"></i>  Via la réalisation de 7
+            projet concrets basés sur des mises en situation professionnelles.</p>
+            <div className='objectifs'>
+            <h3 onClick={toggleFormation}> Objectifs de la formation </h3>
+            <img
+              className={`arrow ${isFormationOpen ? 'arrow-down' : 'arrow-up'}`}
+              src={arrow}
+              alt="Fléche pour déplier ou refermer contenu"
+              onClick={toggleFormation}
+              />
+            </div>
+          {isFormationOpen && (
             <ul className="list-objectifs-formation">
               <li>
-                Construire un site web responsive et dynamique s’adaptant à tout
-                type d’écran grâce à l’intégration des éléments des maquettes
-                graphiques (développement front-end avec HTML, CSS, JavaScript
-                et React)
+                <strong>Construire un site web responsive et dynamique</strong> grâce à l’intégration des éléments des maquettes
+                graphiques <em>(développement front-end avec HTML, CSS, JavaScript
+                et React)</em> <br /><br />
               </li>
               <li>
-                Créer des API et des bases de données pour développer des sites
+              <strong>Créer des API et des bases de données</strong> pour développer des sites
                 complets et dynamiques et assurer le bon fonctionnement côté
-                serveur (développement back-end avec NodeJS, Express et
-                MongoDB).{' '}
+                serveur <em>(développement back-end avec NodeJS, Express et
+                MongoDB)</em> <br /><br />
               </li>
               <li>
-                Optimiser les performances et réaliser la maintenance de sites
+              <strong>Optimiser les performances et réaliser la maintenance</strong> de sites
                 web déjà existants pour permettre leur fonctionnement optimal et
-                une bonne visibilité sur les moteurs de recherche (SEO).
+                une bonne visibilité sur les moteurs de recherche (SEO).<br /><br />
               </li>
               <li>
-                Gérer un projet web de A à Z : de la planification du projet à
+              <strong> Gérer un projet web de A à Z :</strong>  de la planification du projet à
                 la présentation de la solution au client, en passant par la
                 rédaction des spécifications techniques.
               </li>
             </ul>
-          </p>
-          <h3 onClick={() => setIsOpen(!isOpen)}>Cours suivi</h3>
-          <img onClick={() => setIsOpen(!isOpen)}
-          className={isOpen ? "arrow arrow-down" : "arrow arrow-up"}
-          // condition : si isOpen is true, le style aarow down est appliqué sinon arrow up
-          src={arrow}
-          alt="Fléche pour déplier ou refermer contenu"
-          />
-          {isOpen && (
+            )}
+          </div>
+          <div className='cours'>
+          <h3 onClick={toggleCours}>Cours suivi</h3>
+            <img
+              className={`arrow ${isCoursOpen ? 'arrow-down' : 'arrow-up'}`}
+              src={arrow}
+              alt="Fléche pour déplier ou refermer contenu"
+              onClick={toggleCours}
+            />
+          </div>
+          {isCoursOpen && (
             <ul className="list-block">
           <li>Comprendre le Web et Découvrez les métiers de développeur</li>
           <li>Découvrez le fonctionnement des algorithmes</li>
@@ -87,7 +105,7 @@ function Resume() {
           )}
         </section>
 
-        <section id="formation-initiale" className="bloc">
+        <section className="bloc">
           <h2>
             <i className="fa-solid fa-graduation-cap"></i> MON PARCOURS
             UNIVERSITAIRE{' '}
@@ -101,17 +119,16 @@ function Resume() {
             </li>
           </ul>
         </section>
-      </section>
-      <section id="experience-pro" className="bloc">
+      <section className="bloc experience-pro">
         <h2>
           <i className="fa-solid fa-user-tie"></i> MES EXPERIENCES
           PROFESSIONNELLES
         </h2>
         <h3>Accompagnatrice en Validation des Acquis de l’Expérience</h3>
-        <p class="lieu-date">
+        <p className="lieu-date">
           Université Clermont Auvergne (Octobre 2020 – Aout 2022)
         </p>
-        <ul class="list-block" id="list-experience">
+        <ul className="list-block" id="list-experience">
           <li>
             Accompagnement et suivi des candidats VAE dans le dispositif (à
             distance, en présence, individuel et collectif){' '}
@@ -119,6 +136,7 @@ function Resume() {
           <li>Ingénierie pédagogique et création d’outils numériques </li>
           <li>Animation d’activités pédagogiques et de formation </li>
         </ul>
+      </section>
       </section>
     </>         
   );

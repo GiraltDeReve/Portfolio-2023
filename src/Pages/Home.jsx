@@ -1,14 +1,14 @@
 import React from 'react';
-import About from '../components/About';
-import Contacts from '../components/Contacts.jsx';
+import Intro from '../components/Intro';
 import Joke from '../components/Joke.jsx';
+import Gallery from '../components/Gallery';
 
 function Home() {
   return (
     <main>
-      <About />
-      <Contacts />
-      <Joke />
+      <Intro />
+      <Gallery />
+      <aside className='joke'><Joke /></aside>
     </main>
   );
 }

@@ -16,7 +16,7 @@ const Github = ({ repo }) => {
 
   return (
     <div>
-      {commitCount > 0 && <p>Nombre de commits pour {repo}: {commitCount}</p>}
+      {commitCount > 0 && <p className='commit'>Nombre de commits pour {repo} : {commitCount}</p>}
     </div>
   );
 };
