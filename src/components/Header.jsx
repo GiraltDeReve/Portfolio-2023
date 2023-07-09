@@ -12,8 +12,8 @@ const Header = () => {
       <h1>Céline ROUAIRE</h1>
       <nav>
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-    <li className={`nav-item ${location.pathname === '/' ? 'active' : ''}`}>
-             <Link exact to="/" className="nav-link px-2 text-white">Home</Link>
+    <li className={`nav-item ${location.pathname === '/Portfolio-2023' ? 'active' : ''}`}>
+             <Link exact to="/Portfolio-2023" className="nav-link px-2 text-white">Home</Link>
             </li>
             {/* <li className={`nav-item ${location.pathname === '/Projects' ? 'active' : ''}`}>
               <Link exact to="/Projects" className="nav-link px-2 text-white">Projects</Link>

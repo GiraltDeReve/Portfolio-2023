@@ -17,7 +17,7 @@ ReactDOM.render(
       <Header />
       <Routes>
         {/* routes remplace switch dans la nouvelle version de recat router */}
-        <Route exact="true" path="/" element={<Home />} />
+        <Route exact="true" path="/Portfolio-2023" element={<Home />} />
         {/* <Route path="/Projects" element={<Projects />} /> */}
         <Route path="/Project/:id" element={<Project />} />
         <Route path="/About" element={<About />} />
