@@ -6,7 +6,7 @@ function Gallery() {
   return (
     <section className="gallery-section">
       <div className='gallery-title'>
-        <h2 className='fw-bold mb-0 fs-1 align-text-center text-white border-bottom'>Portfollio</h2>
+        <h2 className='fw-bold mb-0 fs-1 align-text-center text-white border-bottom'>Portfolio</h2>
       </div>
       <div className="gallery-items">
         {projects.map((data) => {

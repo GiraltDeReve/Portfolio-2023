@@ -30,7 +30,7 @@ function Resume() {
             <p><strong>Objectif de la formation : Transformer des maquettes graphiques en
             sites webs fonctionnels et ergonomiques </strong></p>
             <p><i className="fa-solid fa-arrow-right"></i>  Via la réalisation de 7
-            projet concrets basés sur des mises en situation professionnelles.</p>
+            projets concrets basés sur des mises en situation professionnelles.</p>
             <div className='objectifs'>
             <h3 onClick={toggleFormation}> Objectifs de la formation </h3>
             <img
@@ -67,7 +67,7 @@ function Resume() {
             )}
           </div>
           <div className='cours'>
-          <h3 onClick={toggleCours}>Cours suivi</h3>
+          <h3 onClick={toggleCours}>Cours suivis</h3>
             <img
               className={`arrow ${isCoursOpen ? 'arrow-down' : 'arrow-up'}`}
               src={arrow}
