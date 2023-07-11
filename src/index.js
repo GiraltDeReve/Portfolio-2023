@@ -47,8 +47,8 @@ ReactDOM.render(
       <Header />
       <Routes>
         <Route path="/Portfolio-2023/" element={<Home />} />
-        <Route path="/Project/:id/" element={<Project />} />
-        <Route path="/About/" element={<About />} />
+        <Route path="/Portfolio-2023/Project/:id/" element={<Project />} />
+        <Route path="/Portfolio-2023/About/" element={<About />} />
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
       <Contacts />

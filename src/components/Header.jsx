@@ -18,12 +18,11 @@ const Header = () => {
             {/* <li className={`nav-item ${location.pathname === '/Projects' ? 'active' : ''}`}>
               <Link exact to="/Projects" className="nav-link px-2 text-white">Projects</Link>
             </li> */}
-            <li className={`nav-item ${location.pathname === '/About/' ? 'active' : ''}`}>
-              <Link exact to="/About/" className="nav-link px-2 text-white">About</Link>
+            <li className={`nav-item ${location.pathname === '/Portfolio-2023/About/' ? 'active' : ''}`}>
+              <Link exact to="/Portfolio-2023/About/" className="nav-link px-2 text-white">About</Link>
             </li>
            <li className={`nav-item ${location.pathname === '/CV/' ? 'active' : ''}`}>
-              {/* <a href="https://giraltdereve.github.io/Portfolio-2023/CV2023.pdf" target="_blank" rel="noopener noreferrer" className="nav-link px-2 text-white"> */}
-              <a href="./CV2023.pdf" target="_blank" rel="noopener noreferrer" className="nav-link px-2 text-white">
+              <a href="https://giraltdereve.github.io/Portfolio-2023/CV2023.pdf" target="_blank" rel="noopener noreferrer" className="nav-link px-2 text-white">
               CV
               </a>
              </li>
