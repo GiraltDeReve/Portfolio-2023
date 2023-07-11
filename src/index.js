@@ -69,7 +69,7 @@ import Contacts from './components/Contacts.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/Portfolio-2023">
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
