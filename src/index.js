@@ -34,9 +34,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './components/Header.jsx';
+// import Header from './components/Header.jsx';
 import Home from './Pages/Home.jsx';
-// import Projects from './Pages/Projects.jsx';
 import Project from './Pages/Project.jsx';
 import About from './Pages/About.jsx';
 import Contacts from './components/Contacts.jsx';
@@ -44,7 +43,7 @@ import Contacts from './components/Contacts.jsx';
 ReactDOM.render(
   <React.StrictMode>
     <Router basename="/Portfolio-2023/">
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/Portfolio-2023/" element={<Home />} />
         <Route path="/Portfolio-2023/Project/:id/" element={<Project />} />
