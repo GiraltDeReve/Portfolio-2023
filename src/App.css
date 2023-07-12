@@ -561,11 +561,11 @@ img{
   display: block;
 }
 
-@media screen and (max-width: 425px) {
-  .formation {
-    width: 100%;
-  }
-  }
+  @media screen and (max-width: 425px) {
+    .formation {
+        width: 100% !important;
+    }
+}
 
 /* -------------------SKILLS-------------------------------- */
 .container-skills {
