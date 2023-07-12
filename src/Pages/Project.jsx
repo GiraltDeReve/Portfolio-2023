@@ -23,6 +23,7 @@ function Project() {
             <div className='second-container'>
                 <h3 className='title'>Objectifs du projet</h3>
                 <p className='description'>{projectsDatas[0].description}</p>
+                {projectsDatas[0].problems && <p className='description'>{projectsDatas[0].problems}</p>}
               </div>
               <div className='second-container'>
                 <Github key={projectsDatas[0].id} repo={projectsDatas[0].repo} />
