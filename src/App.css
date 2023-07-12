@@ -135,8 +135,10 @@ width: 300px;
   }
 
   .modal-dialog {
-    right: 100px;
-    top: 900px;
+    /* right: 100px;
+    top: 770px; */
+    right: 8%;
+    top: 466px;
   }
 
   #technos {
@@ -155,6 +157,12 @@ width: 300px;
   }
 }
 
+@media screen and (max-width: 320px){
+.modal-dialog {
+  right: 100px;
+  top: 770px;
+}
+}
 
 /* --------------------------CONTACTS----------------------------------- */
 footer {
