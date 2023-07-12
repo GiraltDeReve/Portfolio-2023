@@ -504,7 +504,7 @@ flex-wrap: wrap;
   display: flex;
   height: 50px;
   align-items: center;
-  width: 150px;
+  width: 160px;
   justify-content: space-between;
 }
   .cours :hover {
