@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '.././assets/style/resume.css';
+// import '.././assets/style/resume.css';
 import arrow from ".././assets/images/Arrow.png";
 
 function Resume() {

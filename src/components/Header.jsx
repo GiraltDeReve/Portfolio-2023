@@ -34,7 +34,7 @@
 
 import { Link, useLocation } from 'react-router-dom';
 import React from 'react';
-import '../assets/style/header.css';
+// import '../assets/style/header.css';
 
 const Header = () => {
   const location = useLocation();

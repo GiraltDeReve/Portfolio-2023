@@ -1,6 +1,6 @@
 import React from 'react';
 import portrait from '../assets/images/portrait1.jpg';
-import '.././assets/style/intro.css';
+// import '.././assets/style/intro.css';
 
 const Intro = () => {
 

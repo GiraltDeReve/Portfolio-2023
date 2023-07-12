@@ -123,7 +123,7 @@ width: 300px;
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
   body {
     padding: 15px ;
     max-width: 530px;
@@ -449,7 +449,7 @@ flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .gallery-photo {
     flex-direction: column;
     align-content: center;
@@ -561,7 +561,7 @@ img{
   display: block;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .formation {
     width: 100%;
   }
@@ -652,7 +652,7 @@ padding: 10px ;
 }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .container-skills {
     width: 88%;  
     margin-left: 30px;

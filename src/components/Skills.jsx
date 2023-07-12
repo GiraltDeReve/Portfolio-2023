@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '.././assets/style/skills.css';
+// import '.././assets/style/skills.css';
 
 function Aside() {
   const [activeTab, setActiveTab] = useState(1);

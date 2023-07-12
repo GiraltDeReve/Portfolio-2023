@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap';
-import "../assets/style/joke.css"
+// import "../assets/style/joke.css"
 
 const Joke = () => {
   const [joke, setJoke] = useState(null);
