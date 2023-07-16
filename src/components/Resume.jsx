@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
-// import '.././assets/style/resume.css';
 import arrow from ".././assets/images/Arrow.png";
 
 function Resume() {
 
   const [isFormationOpen, setIsFormationOpen] = useState(false);
+  // pour afficher contenu collapse formation
   const [isCoursOpen, setIsCoursOpen] = useState(false);
+// pour afficher contenu collapse cours
 
   const toggleFormation = () => {
     setIsFormationOpen(!isFormationOpen);
+    // pour inverser(toggle) valeur de isFormationOpen (cache ou montre contenu collapse)
   };
 
   const toggleCours = () => {
     setIsCoursOpen(!isCoursOpen);
+    // idem
   };
 
   return (

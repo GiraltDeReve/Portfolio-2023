@@ -1,6 +1,5 @@
 import React from 'react';
 import portrait from '../assets/images/portrait1.jpg';
-// import '.././assets/style/intro.css';
 
 const Intro = () => {
 
@@ -16,8 +15,8 @@ const Intro = () => {
           </h2>
           <p className="text-introduction">
             En <strong>reconversion professionnelle</strong> dans le
-            développement web, je suis à la recherche d'une{' '}
-            <strong>alternance</strong> pour appliquer mes compétences et
+            développement web, je suis à la recherche d'une  
+            <strong> alternance</strong> pour appliquer mes compétences et
             poursuivre mon apprentissage. Motivée, organisée et prête à relever
             de nouveaux défis, je serais ravie d'échanger sur vos projets.
           </p>

@@ -10,7 +10,9 @@ function Gallery() {
       </div>
       <div className="gallery-items">
         {projects.map((data) => {
-          // pour chaque objet boucle avec map pour faire tableau et
+          // boucle avec map qui itère sur chaque élément du tableau projects. 
+          // data représente chaque élément du tableau à chaque itération de la boucle.
+          // composant Card créé à chaque itération avec données de data (propriété id, title et cover passées au composat card) 
           return (
             <Card
               key={data.id}

@@ -6,6 +6,7 @@ import psychologyData from '../data/psychologie.json';
 function Techno() {
   const psychology = psychologyData;
 
+  // Extraction des titres uniques des technologies à partir des données des projets
 const allTechnologiesTitle = new Set();
   technologiesData.forEach((item) => {
     item.technologies.forEach((technology) => {
@@ -14,6 +15,7 @@ const allTechnologiesTitle = new Set();
   });
   const TechnologiesTitle = Array.from(allTechnologiesTitle);
 
+  // Extraction des images uniques des technologies à partir des données des projets
 const allTechnologiesImage = new Set();
   technologiesData.forEach((item) => {
     item.technologies.forEach((technology) => {
@@ -22,7 +24,7 @@ const allTechnologiesImage = new Set();
   });
   const TechnologiesImage = Array.from(allTechnologiesImage);
 
-
+ // Fonction pour afficher une technologie
 const techno = (titre, image) => {
   return (
     <div className="col d-flex align-items-start border" style={{ width: "270px", height: "80px", padding: "20px" }}>
@@ -36,7 +38,7 @@ const techno = (titre, image) => {
   );
 };
 
-
+ // Fonction pour afficher un outil psycho
 const outils = (item) => {
   return (
     <div className="col d-flex align-items-start border" style={{ width: "270px", height: "auto", padding: "20px" }}>

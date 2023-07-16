@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
-// import '.././assets/style/skills.css';
 
 function Aside() {
   const [activeTab, setActiveTab] = useState(1);
+  // État pour gérer l'onglet actif
 
   const handleTabClick = (index) => {
     if (activeTab === index) {
       return;
+      // appelée lorsqu'un onglet est cliqué. 
+      //  met à jour l'état activeTab avec l'index de l'onglet cliqué, à moins qu'il ne soit déjà actif
     }
-    setActiveTab(index);
+    setActiveTab(index); 
+    // Définir l'onglet actif sur celui cliqué
   };
 
   return (

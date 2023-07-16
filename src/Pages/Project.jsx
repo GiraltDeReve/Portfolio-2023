@@ -2,8 +2,6 @@ import React from 'react';
 import { useParams} from "react-router-dom";
 import projects from '../data/projects.json';
 import Github from '../components/Github.jsx';
-// import '../assets/style/project.css';
-
 
 function Project() {
   

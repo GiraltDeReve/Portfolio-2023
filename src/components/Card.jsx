@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import "../assets/style/gallery.css";
 
 function Card({ id, title, cover }) {
+  // paramétre id, title et cover récupérés du composant gallery
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHovered(true);
+    // on veut effet sombre quand souris entre dans l'espace "link"
   };
 
   const handleMouseLeave = () => {
@@ -19,6 +20,7 @@ function Card({ id, title, cover }) {
       className="gallery-item"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      // événements onMouseEnter et onMouseLeave attachés au link pour déclencher les fonctions de gestion des événements de souris déclarer avant
     >
       <img
         className={`gallery-item-image ${isHovered ? "hovered" : ""}`}
