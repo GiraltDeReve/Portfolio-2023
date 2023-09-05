@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Portfolio en Ligne
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans ce projet de création de mon portfolio en ligne, réalisé avec React. 
+Ce projet a été conçu dans le cadre de ma formation de développeuse Web chez OpenClassrooms afin de présenter mes compétences et mes projets.
 
-## Available Scripts
+Mon portfolio professionnel est accessible en ligne en cliquant [ici](https://portfolio-rouaire.netlify.app/).
 
-In the project directory, you can run:
+## Aperçu
 
-### `npm start`
+Les deux principaux objectifs de ce projet était :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Présentation Personnelle :** Le portfolio me permet de me présenter en mettant en avant mes compétences, mes formations, mon parcours professionnel et mes projets passés. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Démonstration Technique :** Ce portfolio me permet de démontrer mes compétences techniques en React et dans la réalisation d'un code propre et bien structuré. L'interface elle-même est également un moyen de montrer mes compétences en design.
 
-### `npm test`
+## Fonctionnalités Clés
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Le portfolio en ligne comprend les fonctionnalités suivantes :
 
-### `npm run build`
+- **Page d'Accueil :** Une page d'accueil présentant une brève introduction avec une photo de profil, mes coordonées, une gallerie avec les projets réalisés et un menu permettant de consulter mon CV et la page "À Propos".
+  
+- **Page "À Propos" :** Une page dédiée pour présenter mon parcours de formation, mon parcours professionnel, mes compétences techniques, mes savoir faire et savoir-être.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Page Projet :** Une page pour chaque projet avec une description détaillée, un lien vers le repository github et si disponible, le lien du projet en ligne. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Déploiement en ligne :** grâce à la commande npm build et hébergé sur l'hebergeur netlify.
+  
+## Capture d'Ecran
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Page d'accueil
+![image](https://github.com/GiraltDeReve/Site-Mon-Vieux-Grimoire/assets/113437966/ef82cc94-6e8b-429e-bfe2-f93565cd6507)
 
-### `npm run eject`
+### Page "À Propos"
+![image](https://github.com/GiraltDeReve/Portfolio-2023/assets/113437966/ca269c61-6767-41ea-a67d-2ca59f0c8e62)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Page Projet
+![image](https://github.com/GiraltDeReve/Portfolio-2023/assets/113437966/5df55888-874c-4e02-9c1c-dd885698e7bb)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### [CV accessible depuis le site](https://giraltdereve.github.io/Portfolio-2023/CV2023(1).pdf)
+![image](https://github.com/GiraltDeReve/Portfolio-2023/assets/113437966/3b66ebff-3261-41b8-ab2c-6ac7c9aa6704)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+N'hésitez pas à contribuer, signaler des problèmes ou suggérer des améliorations en ouvrant une issue.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Merci d'avoir visité mon projet de Portfolio en ligne !
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet a été réalisé par Céline Rouaire dans le cadre de la formation de Développeur Web sur OpenClassrooms.
