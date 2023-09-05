@@ -66,7 +66,7 @@
         "https://imageshack.com/i/pmb2DWzip"
 
       ],
-      "description": "Le projet consiste à planifier le développer d’un site permettant aux restaurateurs de créer facilement leurs menus. Les objectifs comprennent la préparation du projet, la mise en place d'une méthodologie de travail agile, ainsi que le développement de fonctionnalités clés. J’avais a disposition la maquette desktop, la documentation des spécifications fonctionnelles et les user stories. Mes missions était de créer un système de veille et sa documentation, d’approfondir les spécifications techniques afin d’organiser la gestion de projet via un tableau Kanban. ",
+      "description": "Le projet consiste à planifier le développement d’un site permettant aux restaurateurs de créer facilement leurs menus. Les objectifs comprennent la préparation du projet, la mise en place d'une méthodologie de travail agile, ainsi que le développement de fonctionnalités clés. J’avais a disposition la maquette desktop, la documentation des spécifications fonctionnelles et les user stories. Mes missions était de créer un système de veille et sa documentation, d’approfondir les spécifications techniques afin d’organiser la gestion de projet via un tableau Kanban. ",
       "problems" : "Les difficultés rencontrées étaient liées à l'étude et à la justification des choix effectués pour les spécifications techniques. Pour m'aider à surmonter ces appréhensions, j'ai réalisé un travail de veille important qui m'a permis de rassembler les ressources nécessaires.",
       "link": "https://www.canva.com/design/DAFduoJiVHM/viM77MBy_UJtTBDhsmaIFA/edit?analyticsCorrelationId=71aca1ed-2c77-487b-8df3-0e52b8453464",
       "technologies" : [
@@ -156,7 +156,7 @@
         "image" : "https://gurayyarar.gallerycdn.vsassets.io/extensions/gurayyarar/expressjs-4-snippets/1.0.2/1512033439660/Microsoft.VisualStudio.Services.Icons.Default"
         },
         {
-        "titre" : "Mango DB",
+        "titre" : "Mongo DB",
         "image" : "https://onlyweb-formation.com/uploads/mod_logo/mongodb.png"
         }
       ]
