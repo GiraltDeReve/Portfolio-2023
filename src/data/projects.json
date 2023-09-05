@@ -69,6 +69,8 @@
       "description": "Le projet consiste à planifier le développement d’un site permettant aux restaurateurs de créer facilement leurs menus. Les objectifs comprennent la préparation du projet, la mise en place d'une méthodologie de travail agile, ainsi que le développement de fonctionnalités clés. J’avais a disposition la maquette desktop, la documentation des spécifications fonctionnelles et les user stories. Mes missions était de créer un système de veille et sa documentation, d’approfondir les spécifications techniques afin d’organiser la gestion de projet via un tableau Kanban. ",
       "problems" : "Les difficultés rencontrées étaient liées à l'étude et à la justification des choix effectués pour les spécifications techniques. Pour m'aider à surmonter ces appréhensions, j'ai réalisé un travail de veille important qui m'a permis de rassembler les ressources nécessaires.",
       "link": "https://www.canva.com/design/DAFduoJiVHM/viM77MBy_UJtTBDhsmaIFA/edit?analyticsCorrelationId=71aca1ed-2c77-487b-8df3-0e52b8453464",
+      "github": "https://github.com/GiraltDeReve/Site-Menu-Maker-by-Qwenta",
+      "repo": "Site-Menu-Maker-by-Qwenta",
       "technologies" : [
         {
         "titre" : "Trello",
@@ -121,7 +123,7 @@
       ],
       "description": "Le projet consiste a aider une entreprise spécialisée dans la location d’appartements a moderniser leur application WEB. Ce dernier, possédant un code legacy important doit être revu pour adopter un stack complet en JavaScript, en utilisant NodeJS pour le back-end et React pour le front-end. Ma mission était de démarrer le projet REACT et de développer l’ensemble de l’application (composants, pages, routage) en suivant les maquettes Figma pour les versions desktop, mobile et tablette.",
       "github": "https://github.com/GiraltDeReve/Application-React-Kasa",
-      "repo": "Application-web-de-location",
+      "repo": "Application-React-Kasa",
       "technologies" : [
         {
         "titre" : "JavaScript",
@@ -144,8 +146,8 @@
       ],
       "description": "Le projet consiste à développer le back end du site Mon Vieux Grimoire, une plateforme de notation de livres. Mes missions étaient de développer le backend en utilisant MongoDB, Mongoose, Express et Node.js, tandis que le front-end serait développé en React. L'objectif était de permettre aux utilisateurs de se créer un compte puis se connecter afin d'ajouter des livres, les modifier et les supprimer. Il leur était également possible de noter d’autres livres créer par d’autres utilisateurs. J'ai mis en place la logique du serveur, les modèles de données, les routes et intégré les fonctionnalités spécifiées dans l'API existante. Le résultat était une plateforme interactive pour partager et évaluer des livres.",
       "problems" : "L'installation et la gestion de plusieurs paquets et dépendances ont parfois posé des difficultés, mais j'ai appris l'importance de prendre le temps d'effectuer une installation propre. Cela permet d'éviter tout problème ou conflit entre les différents paquets. En prenant le temps nécessaire, j'ai pu installer les paquets de manière méthodique et prévenir les éventuels conflits qui pourraient survenir.",
-      "github": "https://github.com/GiraltDeReve/application-p7",
-      "repo": "application-p7",
+      "github": "https://github.com/GiraltDeReve/Site-Mon-Vieux-Grimoire",
+      "repo": "Site-Mon-Vieux-Grimoire",
       "technologies" : [
         {
         "titre" : "Node.js",
