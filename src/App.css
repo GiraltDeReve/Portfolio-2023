@@ -16,7 +16,7 @@
 }
 
 body {
-  width: 1350px;
+  width: auto;
   font-family: 'Montserrat', sans-serif;
   margin: auto;
   background-color: rgb(25,27,31);
@@ -289,6 +289,10 @@ header {
   z-index: 100;
 }
 
+.headerSite {
+  margin: 30px 50px;;
+}
+
 /* -------------------INTRO-------------------------------- */
 .introduction {
   display: flex;
@@ -486,13 +490,14 @@ flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 65%;
   }
   .bloc {
+    width: 95%;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: 20px;
+    margin: 0 10px 10px 10px;
     background-color: rgb(255 255 255);
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.822);
@@ -569,6 +574,7 @@ img{
 
 .icon-grid {
   display: block;
+  margin: 50px;
 }
 
   @media screen and (max-width: 425px) {
@@ -578,16 +584,26 @@ img{
 }
 
 /* -------------------SKILLS-------------------------------- */
+
 .container-skills {
-  width: 30%;
-  height: 800px;
-  background-color: rgb(255 255 255);
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin: 20px 0;
-  padding: 0;
+background-color: white;
+    width: 30%;
+    height: max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 25px;
+    background-color: rgb(255 255 255);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.822);
   }
-  
+
+  .nav-tabs {
+    margin: 0;
+
+  }
+  /* 
 .container-onglets {
   background: rgba(73, 90, 84, 0.178);
   width: 100%;
@@ -608,7 +624,6 @@ img{
 }
 
 .onglets:not(:nth-child(2)) {
-  /* on veut donner une bordure aux deux premier mais pas au troisiéme */
   border-right : 1px solid #f1f1f1;
 }
 
@@ -656,16 +671,27 @@ padding: 10px ;
   }
 }
 
+*/
+
 @media screen and (max-width: 768px) {
-.contenu {
-  width : 370px
+  .sections {
+    flex-direction: column-reverse;
+}
+
+.formation {
+  width: 90%;
+}
+
+.container-skills {
+width: 90%;
 }
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) {
   .container-skills {
     width: 88%;  
     height: 850px;
     margin-left: 30px;
   }
-  }
+  } */
+  

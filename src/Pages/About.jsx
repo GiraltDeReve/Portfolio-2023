@@ -5,10 +5,12 @@ import Techno from '../components/Techno.jsx';
 
 function About() {
   return (
-    <main className='sections'>
+    <main>
+    <section className='sections'>
       <Skills />
       <Resume />
-      <Techno />
+    </section>
+    <Techno />
     </main>
   );
 }
